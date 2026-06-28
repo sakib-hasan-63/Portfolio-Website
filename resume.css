@@ -1,0 +1,330 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+nav {
+    background: #006d6d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #00ffff;
+    border-bottom: 2px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.left {
+    width: 70%;
+    padding: 40px;
+    background: white;
+}
+
+.role {
+    color: teal;
+    border-bottom: 2px solid rgb(2, 9, 9);
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.right {
+    width: 30%;
+    color: white;
+    background: #006d6d;
+    padding: 40px;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    transition: 0.5s;
+}
+
+.profile img:hover {
+    transform: scale(1.1);
+}
+
+.contact {
+    margin-top: 20px;
+}
+
+.contact p {
+    margin-bottom: 10px;
+}
+
+section {
+    margin-top: 40px;
+}
+
+section h2 {
+    border-bottom: 2px solid gray;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.exp-card {
+    margin-top: 15px;
+    padding: 15px;
+    border-left: 5px solid teal;
+    transition: 0.4s;
+}
+
+.exp-card:hover {
+    transform: translateX(10px);
+    background: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.skill h2 {
+    border-bottom: 3px solid white;
+    margin-bottom: 10px;
+}
+
+.education h2 {
+    border-bottom: 3px solid white;
+    margin-bottom: 10px;
+}
+
+.study {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.date {
+    font-size: 12px;
+}
+
+.lang2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.interest h2 {
+    border-bottom: 3px solid white;
+    margin-bottom: 10px;
+}
+.page{
+    padding:50px;
+    min-height:100vh;
+    background:#f5f5f5;
+}
+.page h1{
+    text-align:center;
+    color:#006d6d;
+    margin-bottom:40px;
+    font-size:45px;
+}
+.learning-card {
+
+    background: white;
+
+    padding: 20px;
+
+    margin-bottom: 20px;
+
+    border-left: 6px solid #006d6d;
+
+    border-radius: 10px;
+
+    transition: 0.3s;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.learning-card h2 {
+    color: #006d6d;
+    margin-bottom: 10px;
+}
+
+.learning-card p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.learning-card:hover {
+    transform: translateX(10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.section-title {
+    color: #006d6d;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.goal-list {
+    list-style: none;
+}
+
+.goal-list li {
+
+    background: white;
+
+    margin-bottom: 15px;
+
+    padding: 15px 20px;
+
+    border-left: 5px solid #006d6d;
+
+    border-radius: 8px;
+
+    font-size: 18px;
+
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+
+    transition: 0.3s;
+}
+
+.goal-list li:hover {
+
+    transform: translateX(10px);
+
+    background: #006d6d;
+
+    color: white;
+}
+
+.projects{
+    padding:30px;
+    min-height:100vh;
+}
+
+.projects h1{
+
+    text-align:center;
+
+    color:#006d6d;
+
+    font-size:45px;
+
+    margin-bottom:50px;
+}
+
+.project-container{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+    flex-wrap:wrap;
+}
+
+.project-card{
+
+    width:320px;
+
+    background:white;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+    transition:0.4s;
+}
+
+.project-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.project-card img{
+
+    width:100%;
+
+    height:200px;
+
+    object-fit:cover;
+}
+
+.project-card h2{
+
+    padding:15px;
+
+    color:#006d6d;
+}
+
+.project-card p{
+
+    padding:0 15px 20px;
+}
+
+.btn-group{
+
+    display:flex;
+
+    justify-content:space-around;
+
+    padding:20px;
+}
+
+.btn{
+
+    text-decoration:none;
+
+    background:#006d6d;
+
+    color:white;
+
+    padding:10px 15px;
+
+    border-radius:8px;
+
+    transition:0.3s;
+}
+
+.btn:hover{
+
+    background:#004f4f;
+
+    transform:scale(1.05);
+}
